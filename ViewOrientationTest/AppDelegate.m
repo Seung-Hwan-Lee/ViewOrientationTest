@@ -20,8 +20,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     RootViewController *rootViewCtrl = [[RootViewController alloc] initWithNibName:NSStringFromClass([RootViewController class]) bundle:nil];
-    UINavigationController *naviCtrl = [[UINavigationController alloc] initWithRootViewController:rootViewCtrl];
-//    TMSNavigationController *naviCtrl = [[TMSNavigationController alloc] initWithRootViewController:rootViewCtrl];
+//    UINavigationController *naviCtrl = [[UINavigationController alloc] initWithRootViewController:rootViewCtrl];
+    TMSNavigationController *naviCtrl = [[TMSNavigationController alloc] initWithRootViewController:rootViewCtrl];
     self.window.rootViewController = naviCtrl;
     
     [self.window makeKeyAndVisible];
