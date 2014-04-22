@@ -19,6 +19,11 @@
 		E9DC14941905E9F8002B3B72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DC147C1905E9F8002B3B72 /* UIKit.framework */; };
 		E9DC149C1905E9F8002B3B72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9DC149A1905E9F8002B3B72 /* InfoPlist.strings */; };
 		E9DC149E1905E9F8002B3B72 /* ViewOrientationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DC149D1905E9F8002B3B72 /* ViewOrientationTestTests.m */; };
+		E9DC14AA1905EABF002B3B72 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DC14A81905EABF002B3B72 /* RootViewController.m */; };
+		E9DC14AB1905EABF002B3B72 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9DC14A91905EABF002B3B72 /* RootViewController.xib */; };
+		E9DC14AE1905EDA6002B3B72 /* TMSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DC14AD1905EDA6002B3B72 /* TMSNavigationController.m */; };
+		E9DC14B21905EE3B002B3B72 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DC14B01905EE3B002B3B72 /* SecondViewController.m */; };
+		E9DC14B31905EE3B002B3B72 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9DC14B11905EE3B002B3B72 /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,14 @@
 		E9DC14991905E9F8002B3B72 /* ViewOrientationTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewOrientationTestTests-Info.plist"; sourceTree = "<group>"; };
 		E9DC149B1905E9F8002B3B72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E9DC149D1905E9F8002B3B72 /* ViewOrientationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewOrientationTestTests.m; sourceTree = "<group>"; };
+		E9DC14A71905EABF002B3B72 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E9DC14A81905EABF002B3B72 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E9DC14A91905EABF002B3B72 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		E9DC14AC1905EDA6002B3B72 /* TMSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSNavigationController.h; sourceTree = "<group>"; };
+		E9DC14AD1905EDA6002B3B72 /* TMSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSNavigationController.m; sourceTree = "<group>"; };
+		E9DC14AF1905EE3B002B3B72 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E9DC14B01905EE3B002B3B72 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E9DC14B11905EE3B002B3B72 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +124,14 @@
 				E9DC14881905E9F8002B3B72 /* AppDelegate.m */,
 				E9DC148A1905E9F8002B3B72 /* Images.xcassets */,
 				E9DC147F1905E9F8002B3B72 /* Supporting Files */,
+				E9DC14AC1905EDA6002B3B72 /* TMSNavigationController.h */,
+				E9DC14AD1905EDA6002B3B72 /* TMSNavigationController.m */,
+				E9DC14A71905EABF002B3B72 /* RootViewController.h */,
+				E9DC14A81905EABF002B3B72 /* RootViewController.m */,
+				E9DC14A91905EABF002B3B72 /* RootViewController.xib */,
+				E9DC14AF1905EE3B002B3B72 /* SecondViewController.h */,
+				E9DC14B01905EE3B002B3B72 /* SecondViewController.m */,
+				E9DC14B11905EE3B002B3B72 /* SecondViewController.xib */,
 			);
 			path = ViewOrientationTest;
 			sourceTree = "<group>";
@@ -218,8 +239,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9DC14B31905EE3B002B3B72 /* SecondViewController.xib in Resources */,
 				E9DC14831905E9F8002B3B72 /* InfoPlist.strings in Resources */,
 				E9DC148B1905E9F8002B3B72 /* Images.xcassets in Resources */,
+				E9DC14AB1905EABF002B3B72 /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,8 +261,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9DC14B21905EE3B002B3B72 /* SecondViewController.m in Sources */,
+				E9DC14AE1905EDA6002B3B72 /* TMSNavigationController.m in Sources */,
 				E9DC14891905E9F8002B3B72 /* AppDelegate.m in Sources */,
 				E9DC14851905E9F8002B3B72 /* main.m in Sources */,
+				E9DC14AA1905EABF002B3B72 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -346,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -438,6 +464,7 @@
 				E9DC14A31905E9F8002B3B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9DC14A41905E9F8002B3B72 /* Build configuration list for PBXNativeTarget "ViewOrientationTestTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +473,7 @@
 				E9DC14A61905E9F8002B3B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
